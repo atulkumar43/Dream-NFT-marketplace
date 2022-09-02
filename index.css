@@ -141,7 +141,7 @@ nav a:hover {
       border: 3px solid #FFFFFF;
       border-radius: 10px;
       margin-top: 480px;
-      margin-left: 200px;
+      margin-left: 150px;
       transition: all 1s ease;
     }
     
@@ -151,34 +151,82 @@ nav a:hover {
     }
     .container {
         width: 280px;
-        height: 270px;
+        height: 300px;
         border: 2px solid #fff;
         background: transparent;
         border-radius: 10px;
         position: absolute;
         margin-top: 600px;
-        margin-left: 20px;
+        left: 12%;
     }
     .container p {
         color: #fff;
         font-family: "poppins", sans-serif;
-        padding: 30px;
-        font-size: 1.1rem;
+        padding: 15px;
+        font-size: 1rem;
+        /* display: inline-block; */
     }
     .container button {
+        display: inline-block;
         width: 125px;
         height: 35px;
         font-family: 'Krona One', sans-serif;
         font-weight: 300;
         border: none;
         border-radius: 10px;
-        margin-left: 30px;
+        margin-left: 15px;
+        margin-top: 10px;
         background: #FFA81B;
         color: #fff;
-}
-@media (min-width : 768px) {
+    }
+    br {
+        display: none;
+    }
+    .container #bg2 {
+        width: 200px;
+        height: 200px;
+        display: none;
+        border-radius: 10px;
+        position: absolute;
+        right: 17px;
+        top: 23px;
+        transition: all ease 0.7s;
+        transform: scale(1);
+    }
+    .container #bg2:hover {
+      transform: scale(1.1);
+    }
+    @media (min-width : 768px) {
     .container {
+        padding: 20px;
+        font-size: 1.1rem;
         width: 720px;
-        br : none;
+        margin-left: -70px;
+        height: 250px;
+    }
+    br {
+        display: block;
+    }
+    .container #bg2 {
+        display: block;
+    }
+}
+@media (min-width : 1000px) {
+    .container {
+        width: 920px;
+        height: 300px;
+    }
+    .container p {
+        font-size: 1.4rem;
+    }
+    .container #bg2 {
+        height: 240px;
+        width: 240px;
+        top: 20px;
+    }
+}
+@media (min-width : 1200px) {
+    .container {
+        margin-left: 55px;
     }
 }
