@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #0B5EC8;
 }
@@ -229,4 +232,56 @@ nav a:hover {
     .container {
         margin-left: 55px;
     }
+}
+.container2 #header {
+    position: absolute;
+    font-family: 'Krona One', sans-serif;
+    top: 950px;
+    font-size: 1.3rem;
+    color: #fff;
+    padding-left: 20px;
+}
+.container2 #header span {
+    color: #FFA81B;
+}
+.container2 .box2 {
+    margin-top: 1030px;
+    margin-left: 70px;
+    position: absolute;
+    width: 225px;
+    height: 315px;
+    background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+    position: absolute;
+    border: 1px solid #fff;
+}
+.box2 #bg3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 11px;
+}
+.box2 #name1 {
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    color: #fff;
+    padding-left: 10px;
+}
+.box2 #owner1 {
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 29px;
+    font-size: 0.8rem;
+}
+.box2 hr {
+    height: 2px;
+    background-color: #fff;
+    margin-top: 55px;
+    border: none;
 }
