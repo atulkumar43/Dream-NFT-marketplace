@@ -249,7 +249,7 @@ nav a:hover {
     margin-left: 70px;
     position: absolute;
     width: 225px;
-    height: 315px;
+    height: 325px;
     background: rgba( 255, 255, 255, 0.45 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 7.5px );
@@ -284,4 +284,185 @@ border-radius: 10px;
     background-color: #fff;
     margin-top: 55px;
     border: none;
+}
+.box2 #bg4 {
+    width: 35px;
+    height: 35px;
+    bottom: 2px;
+    position: absolute;
+}
+.box2 #price1 {
+    font-family: "poppins", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 7px;
+    left: 37px;
+}
+.box2 #icon1 {
+    bottom: 7px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+}
+.container2 .box3 {
+    margin-top: 1430px;
+    margin-left: 70px;
+    position: absolute;
+    width: 225px;
+    height: 325px;
+    background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+    position: absolute;
+    border: 1px solid #fff;
+}
+
+.box3 #bg5 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 11px;
+}
+.box3 #name2 {
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    color: #fff;
+    padding-left: 10px;
+}
+.box3 #owner2 {
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 29px;
+    font-size: 0.8rem;
+}
+.box3 hr {
+    height: 2px;
+    background-color: #fff;
+    margin-top: 55px;
+    border: none;
+}
+.box3 #bg6 {
+    width: 35px;
+    height: 35px;
+    bottom: 2px;
+    position: absolute;
+}
+.box3 #price2 {
+    font-family: "poppins", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 7px;
+    left: 37px;
+}
+.box3 #icon2 {
+    bottom: 7px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+}
+.container2 .box4 {
+    margin-top: 1830px;
+    margin-left: 70px;
+    position: absolute;
+    width: 225px;
+    height: 325px;
+    background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+    position: absolute;
+    border: 1px solid #fff;
+}
+.box4 #bg7 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 11px;
+}
+.box4 #name3 {
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    color: #fff;
+    padding-left: 10px;
+}
+.box4 #owner3 {
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 29px;
+    font-size: 0.8rem;
+}
+.box4 hr {
+    height: 2px;
+    background-color: #fff;
+    margin-top: 55px;
+    border: none;
+}
+.box4 #bg8 {
+    width: 35px;
+    height: 35px;
+    bottom: 2px;
+    position: absolute;
+}
+.box4 #price3 {
+    font-family: "poppins", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 7px;
+    left: 37px;
+}
+.box4 #icon3 {
+    bottom: 7px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+}
+@media(min-width : 768px) {
+    .container2 #header {
+        top: 900px;
+        font-size: 1.4rem;
+    }
+    .container2 .box2 {
+        margin-top: 980px;
+        display: inline-block;
+    }
+    .container2 .box3 {
+        display: inline-block;
+        margin-top: 980px;
+        right: 70px;
+    }
+    .container2 .box4 {
+        margin-top: 1400px;
+        left: 200px;
+    }
+}
+@media(min-width : 1000px) {
+    .container2 #header {
+        top: 940px;
+        margin-left: 40px;
+    }
+    .container2 .box2 {
+        margin-top: 1000px;
+    }
+    .container2 .box3 {
+        margin-top: 1000px;
+    }
+    .container2 .box4 {
+        margin-left: 200px;
+        margin-top: 1000px;
+        
+    }
+}
+@media(min-width : 1200px) {
+    .container2 .box4 {
+        margin-left: 350px;
+    }
 }
