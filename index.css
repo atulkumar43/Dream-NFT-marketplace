@@ -240,6 +240,7 @@ nav a:hover {
     font-size: 1.3rem;
     color: #fff;
     padding-left: 20px;
+    font-weight: 300;
 }
 .container2 #header span {
     color: #FFA81B;
@@ -463,6 +464,140 @@ border-radius: 10px;
 }
 @media(min-width : 1200px) {
     .container2 .box4 {
-        margin-left: 350px;
+        margin-left: 370px;
     }
+    .container2 .box2 {
+        margin-left: 140px;
+    }
+    .container2 .box3 {
+    margin-right: 60px;
+    }
+}
+.container3 #header2 {
+    position: absolute;
+    font-family: 'Krona One', sans-serif;
+    top: 2230px;
+    font-size: 1.3rem;
+    color: #fff;
+    padding-left: 20px;
+}
+.container3 #header2 span {
+    color: #FFA81B;
+}
+.container3 .box1 {
+    margin-top: 2350px;
+    margin-left: 25px;
+    position: absolute;
+    width: 325px;
+    height: 195px;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid #fff;
+}
+.container3 .box1 #top {
+    color: #fff;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+.container3 .box1 #text {
+    font-weight: 100;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding-left: 15px;
+}
+.container3 .box2 {
+    margin-top: 2600px;
+    margin-left: 25px;
+    position: absolute;
+    width: 325px;
+    height: 215px;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid #fff;
+}
+.container3 .box2 #top {
+    color: #fff;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+.container3 .box2 #text {
+    font-weight: 100;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding-left: 15px;
+}
+.container3 .box3 {
+    margin-top: 2870px;
+    margin-left: 25px;
+    position: absolute;
+    width: 325px;
+    height: 215px;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid #fff;
+}
+.container3 .box3 #top {
+    color: #fff;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+.container3 .box3 #text {
+    font-weight: 100;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.container3 .box4 {
+    margin-top: 3140px;
+    margin-left: 25px;
+    position: absolute;
+    width: 325px;
+    height: 215px;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid #fff;
+}
+.container3 .box4 #top {
+    color: #fff;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+.container3 .box4 #text {
+    font-weight: 100;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding-left: 15px;
 }
