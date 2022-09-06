@@ -237,7 +237,7 @@ nav a:hover {
     position: absolute;
     font-family: 'Krona One', sans-serif;
     top: 950px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #fff;
     padding-left: 20px;
     font-weight: 300;
@@ -477,9 +477,10 @@ border-radius: 10px;
     position: absolute;
     font-family: 'Krona One', sans-serif;
     top: 2230px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #fff;
     padding-left: 20px;
+    font-weight: 300;
 }
 .container3 #header2 span {
     color: #FFA81B;
@@ -489,7 +490,7 @@ border-radius: 10px;
     margin-left: 20px;
     position: absolute;
     width: 325px;
-    height: 195px;
+    height: 215px;
     background: rgba( 255, 255, 255, 0.45 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 7.5px );
@@ -515,7 +516,7 @@ border-radius: 10px;
     padding-right: 20px;
 }
 .container3 .box2 {
-    margin-top: 2600px;
+    margin-top: 2605px;
     margin-left: 20px;
     position: absolute;
     width: 325px;
@@ -544,7 +545,7 @@ border-radius: 10px;
     padding-left: 15px;
 }
 .container3 .box3 {
-    margin-top: 2870px;
+    margin-top: 2865px;
     margin-left: 20px;
     position: absolute;
     width: 325px;
@@ -574,7 +575,7 @@ border-radius: 10px;
     padding-right: 20px;
 }
 .container3 .box4 {
-    margin-top: 3140px;
+    margin-top: 3135px;
     margin-left: 20px;
     position: absolute;
     width: 325px;
@@ -601,6 +602,7 @@ border-radius: 10px;
     font-weight: 300;
     font-size: 1.1rem;
     padding-left: 15px;
+    padding-right: 15px;
 }
 @media(min-width : 768px) {
     .container3 #header2 {
@@ -615,4 +617,38 @@ border-radius: 10px;
     .container3 .box2 {
         margin-top: 2150px;
     }
+    .container3 .box3 {
+        margin-top: 1900px;
+        right: 30px;
+    }
+    .container3 .box4 {
+        margin-top : 2150px;
+        right: 30px;
+    }
+}
+@media(min-width : 1000px) {
+    .container3 #header2 {
+        top: 1370px;
+        margin-left: 40px;
+    }
+    .container3 .box1 {
+        margin-left: 75px;
+        margin-top: 1450px;
+    }
+    .container3 .box2 {
+        margin-top: 1720px;
+        margin-left: 75px;
+    }
+    .container3 .box3 {
+        margin-top: 1450px;
+        right: 75px;
+    }
+    .container3 .box4 {
+        margin-top: 1720px;
+        right: 75px;
+
+    }
+}
+@media(min-width : 1200px) {
+    
 }
