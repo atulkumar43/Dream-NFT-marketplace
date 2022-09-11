@@ -193,11 +193,6 @@ nav a:hover {
         position: absolute;
         right: 17px;
         top: 23px;
-        transition: all ease 0.7s;
-        transform: scale(1);
-    }
-    .container #bg2:hover {
-      transform: scale(1.1);
     }
     @media (min-width : 768px) {
     .container {
@@ -207,7 +202,7 @@ nav a:hover {
         margin-left: -70px;
         height: 250px;
     }
-    br {
+    .container br {
         display: block;
     }
     .container #bg2 {
@@ -646,9 +641,84 @@ border-radius: 10px;
     .container3 .box4 {
         margin-top: 1720px;
         right: 75px;
-
+        
     }
 }
 @media(min-width : 1200px) {
-    
+    .container3 .box1 {
+        margin-left: 170px;
+        transform: scale(1.1);
+        margin-top: 1460px;
+    }
+    .container3 .box2 {
+        margin-left: 170px;
+        transform: scale(1.1);
+        margin-top: 1780px;
+    }
+    .container3 .box3 {
+        margin-top: 1460px;
+        transform: scale(1.1);
+        right: 150px;
+    }
+    .container3 .box4 {
+        margin-top: 1780px;
+        right: 150px;
+        transform: scale(1.1);
+    }
+}
+.container4 #header {
+    position: absolute;
+    font-family: 'Krona One', sans-serif;
+    top: 3400px;
+    font-size: 1.5rem;
+    color: #fff;
+    padding-left: 20px;
+    font-weight: 300;
+}
+.container4 #header span {
+    color: #FFA81B;
+}
+.container4 .box1 {
+    position: absolute;
+    background-color: #fff;
+    width: 335px;
+    height: 500px;
+    top: 3470px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.container4 .box1 #top {
+    color: #0B5EC8;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding: 20px;
+}
+.container4 .box1 #bg1 {
+    width: 300px;
+    height: 410px;
+    margin-left: 17px;
+    border-radius: 10px;
+}
+.container4 .box2 {
+    position: absolute;
+    background-color: #fff;
+    width: 335px;
+    height: 500px;
+    top: 4020px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.container4 .box2 #top {
+    color: #0B5EC8;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding: 20px;
+}
+.container4 .box2 #bg2 {
+    width: 300px;
+    height: 410px;
+    margin-left: 17px;
+    border-radius: 10px;
 }
