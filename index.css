@@ -26,7 +26,7 @@ header button {
     box-sizing: border-box;
     
 position: absolute;
-width: 115px;
+width: 215px;
 height: 46px;
 font-size: 1.3rem ;
 color: #fff;
@@ -161,13 +161,21 @@ nav a:hover {
         position: absolute;
         margin-top: 600px;
         left: 12%;
-    }
-    .container p {
+        transition: all ease 1s;
         color: #fff;
         font-family: "poppins", sans-serif;
+    }
+    .container:hover {
+        background-color: #fff;
+        color: #0B5EC8;
+    }
+    .container p {
         padding: 15px;
         font-size: 1rem;
-        /* display: inline-block; */
+        transition: all ease 1s;
+    }
+    .container p:hover {
+        color: #0B5EC8;
     }
     .container button {
         display: inline-block;
@@ -443,7 +451,7 @@ border-radius: 10px;
 @media(min-width : 1000px) {
     .container2 #header {
         top: 940px;
-        margin-left: 40px;
+        margin-left: 50px;
     }
     .container2 .box2 {
         margin-top: 1000px;
@@ -458,6 +466,9 @@ border-radius: 10px;
     }
 }
 @media(min-width : 1200px) {
+    .container2 #header {
+        margin-left : 120px
+    }
     .container2 .box4 {
         margin-left: 370px;
     }
@@ -623,8 +634,8 @@ border-radius: 10px;
 }
 @media(min-width : 1000px) {
     .container3 #header2 {
-        top: 1370px;
-        margin-left: 40px;
+        top: 1380px;
+        margin-left: 50px;
     }
     .container3 .box1 {
         margin-left: 75px;
@@ -645,25 +656,45 @@ border-radius: 10px;
     }
 }
 @media(min-width : 1200px) {
+    .container3 #header2 {
+        margin-left : 120px
+    }
     .container3 .box1 {
-        margin-left: 170px;
+        margin-left: 145px;
         transform: scale(1.1);
         margin-top: 1460px;
+        transition: all ease 1s;
+    }
+    .container3 .box1:hover {
+        transform: scale(1.2);
     }
     .container3 .box2 {
-        margin-left: 170px;
+        transition: all ease 1s;
+        margin-left: 145px;
         transform: scale(1.1);
         margin-top: 1780px;
+    }
+    .container3 .box2:hover {
+        transform: scale(1.2);
     }
     .container3 .box3 {
+        transition: all ease 1s;
         margin-top: 1460px;
         transform: scale(1.1);
-        right: 150px;
+        right: 135px;
+    }
+    .container3 .box3:hover {
+        transform: scale(1.2);
     }
     .container3 .box4 {
+        transition: all ease 1s;
         margin-top: 1780px;
-        right: 150px;
+        right: 135px;
         transform: scale(1.1);
+    }
+    .container3 .box4:hover {
+        transform: scale(1.2);
+
     }
 }
 .container4 #header {
@@ -682,7 +713,7 @@ border-radius: 10px;
     position: absolute;
     background-color: #fff;
     width: 335px;
-    height: 500px;
+    height: 450px;
     top: 3470px;
     margin-left: 12px;
     border-radius: 10px;
@@ -696,7 +727,7 @@ border-radius: 10px;
 }
 .container4 .box1 #bg1 {
     width: 300px;
-    height: 410px;
+    height: 355px;
     margin-left: 17px;
     border-radius: 10px;
 }
@@ -704,8 +735,8 @@ border-radius: 10px;
     position: absolute;
     background-color: #fff;
     width: 335px;
-    height: 500px;
-    top: 4020px;
+    height: 450px;
+    top: 3970px;
     margin-left: 12px;
     border-radius: 10px;
 }
@@ -718,7 +749,81 @@ border-radius: 10px;
 }
 .container4 .box2 #bg2 {
     width: 300px;
-    height: 410px;
+    height: 355px;
     margin-left: 17px;
     border-radius: 10px;
+}
+.container4 .box3 {
+    position: absolute;
+    background-color: #fff;
+    width: 335px;
+    height: 450px;
+    top: 4470px;
+    margin-left: 12px;
+    border-radius: 10px;
+}
+.container4 .box3 #top {
+    color: #0B5EC8;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding: 20px;
+}
+.container4 .box3 #bg3 {
+    width: 300px;
+    height: 355px;
+    margin-left: 17px;
+    border-radius: 10px;
+}
+@media(min-width : 768px) {
+    .container4 #header {
+        top : 2430px;
+    }
+    .container4 .box1 {
+        top: 2520px;
+    }
+    .container4 .box2 {
+        top: 2520px;
+        margin-left: 420px;
+    }
+    .container4 .box3 {
+        top: 3020px;
+        margin-left: 200px;
+    }
+}
+@media(min-width : 1000px) {
+    .container4 #header {
+        top: 2000px;
+        margin-left: 50px;
+    }
+    .container4 .box1 {
+        top: 2100px;
+        margin-left: 75px;
+    }
+    .container4 .box2 {
+        top: 2100px;
+        right: 75px;
+    }
+    .container4 .box3 {
+        top: 2620px;
+        margin-left: 340px;
+    }
+}
+@media(min-width : 1200px) {
+    .container4 #header {
+        margin-left: 120px;
+        margin-top: 70px;
+    }
+    .container4 .box1 {
+        margin-top: 70px;
+        margin-left: 125px;
+    }
+    .container4 .box2 {
+        margin-top: 70px;
+        right : 135px;
+    }
+    .container4 .box3 {
+        margin-left: 500px;
+        top: 2170px;
+    }
 }
